@@ -1,10 +1,5 @@
-require "temirtulpar_helper/version"
-require "temirtulpar_helper/view/application_helper"
+Dir[File.join(__dir__, 'temirtulpar_helper','**', '*.rb')].each { |file| require file }
 
 module TemirtulparHelper
   include TemirtulparHelper::View::ApplicationHelper
-
-  def helpert
-    111
-  end
 end
