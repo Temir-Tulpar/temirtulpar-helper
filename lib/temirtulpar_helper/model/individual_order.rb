@@ -1,7 +1,7 @@
 module TemirtulparHelper
   module Model
     module IndividualOrder
-      STATUSES = %i[pending_payment in_progress completed canceled delivered].freeze
+      STATUSES = %i[pending_payment paid in_progress canceled finished].freeze
       DELIVERY_METHODS = [:delivery, :pick_up].freeze
       PAYMENT = [:cash, :bank_card].freeze
       PERSON_TYPE = [:individual, :legal].freeze
