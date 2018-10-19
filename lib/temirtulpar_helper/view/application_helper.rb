@@ -17,6 +17,10 @@ module TemirtulparHelper
           'Завершен'
         when 'canceled'
           'Отменен'
+        when 'proof_payment'
+          'Подтверждение оплаты'
+        when 'payment_error'
+          'Ошибка платежа'
         end
       end
     end
