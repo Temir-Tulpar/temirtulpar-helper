@@ -2,4 +2,5 @@ Dir[File.join(__dir__, 'temirtulpar_helper','**', '*.rb')].each { |file| require
 
 module TemirtulparHelper
   include TemirtulparHelper::View::ApplicationHelper
+  include TemirtulparHelper::View::PhoneNumberHelper
 end
